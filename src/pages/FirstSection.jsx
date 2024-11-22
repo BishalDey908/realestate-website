@@ -15,20 +15,20 @@ const FirstSection = () => {
   <div className="flex-1 text-center lg:text-left ">
 
 
-    <div className="text-center text-4xl">
+    <div className="2xl:text-center xl:text-center md:text-center text-start text-4xl">
     <p className="font-semibold mb-2">THE FIRST MONTREAL BUILDING </p>
     <p className="font-semibold ">WITH AN ENRICHING LIFESTYLE</p>
     </div>
 
 
-    <div className="text-2xl my-6 text-center">
+    <div className="text-2xl my-6 2xl:text-center xl:text-center md:text-center text-start">
       <p>Beautiful apartments, vibrant shared apaces and </p>
       <p>concierge services. #1 in customer satisfaction.*</p>
     </div>
 
 
     <div className="2xl:ml-36">
-      <div className="text-lg mt-4 mb-8">
+      <div className="text-lg mt-4 mb-8 2xl:text-start xl:text-center md:text-center text-start ">
     <p className="">
       In the heart of Montreal, and to the rhythm of its beat. Make your 
     </p>
@@ -37,7 +37,7 @@ const FirstSection = () => {
     </p>
       </div>
      
-    <div className="my-4">
+    <div className="my-4 2xl:text-start xl:text-center md:text-center text-start">
       <h1 className="text-xl mb-4">Starting from:</h1>
       <ul>
         <li className="text-lg">&gt; Studio: $1,650 (As of July)</li>
@@ -47,7 +47,7 @@ const FirstSection = () => {
       </ul>
     </div>
 
-    <p className="text-lg mb-8">Discover our community in complete security with new health and safety measures in place. Virtual visits are also available.</p>
+    <p className="text-lg mb-8 2xl:text-start xl:text-center md:text-center text-start">Discover our community in complete security with new health and safety measures in place. Virtual visits are also available.</p>
 
     <div className="flex flex-col md:items-center sm:items-center 2xl:items-start">
   <button className="bg-teal-600 w-full sm:w-96 md:w-96 2xl:w-[80%] 2xl:text-2xl px-6 py-3 sm:text-sm font-semibold md:text-xl text-white hover:bg-black duration-1000 my-4 sm:py-4 sm:px-4">
