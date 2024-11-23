@@ -2,11 +2,12 @@ import React from 'react'
 import SecondSlider from '../Components/SecondSlider'
 import SixthSection from './SixthSection'
 import SeventhSection from './SeventhSection'
+import EighthSection from './EighthSection'
 
 const FifthSection = () => {
     
   return (
-    <div className=' w-full h-96 py-16 '>
+    <div className=' w-full h-auto py-16 '>
       <div className='text-center 2xl:px-16 xl:px-16 md:px-16 px-8'>
         <div>
             <h1 className='2xl:text-7xl xl:text-7xl md:text-6xl text-5xl font-bold text-black'>BUILDING COMMUNITY</h1>
@@ -35,6 +36,7 @@ const FifthSection = () => {
 
     <SixthSection/>
     <SeventhSection/>
+    {/* //other sections is on SeventhSection */}
     </div>
 
       </div>

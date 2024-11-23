@@ -1,0 +1,3 @@
+.animate-carousel:hover {
+    animation-play-state: paused;
+  }

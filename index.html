@@ -11,5 +11,53 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      const carousel = document.getElementById('carousel');
+const reviews = document.querySelectorAll('#carousel > div');
+
+// Calculate individual review width (including gap)
+const reviewWidth = reviews[0].offsetWidth + 32; // Adjust gap as per `space-x-8`
+let currentIndex = 0;
+let interval;
+
+// Function to start the carousel
+function startCarousel() {
+  interval = setInterval(() => {
+    currentIndex++;
+    carousel.style.transform = `translateX(-${currentIndex * reviewWidth}px)`;
+
+    // Check if we've reached the duplicate (last review)
+    if (currentIndex === reviews.length - 1) {
+      setTimeout(() => {
+        carousel.style.transition = 'none'; // Disable transition
+        carousel.style.transform = `translateX(0px)`; // Reset to the first review
+        currentIndex = 0;
+
+        // Re-enable transition after resetting
+        setTimeout(() => {
+          carousel.style.transition = 'transform 0.7s';
+        }, 50);
+      }, 700); // Match the duration of `transition-transform`
+    }
+  }, 3000); // Slide every 3 seconds
+}
+
+// Function to pause the carousel
+function pauseCarousel() {
+  clearInterval(interval);
+}
+
+// Function to resume the carousel
+function resumeCarousel() {
+  startCarousel();
+}
+
+// Initialize the carousel on page load
+window.onload = () => {
+  carousel.style.transition = 'transform 0.7s'; // Enable transition at start
+  startCarousel();
+};
+
+    </script>
   </body>
 </html>

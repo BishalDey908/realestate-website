@@ -9,6 +9,7 @@ export default {
       animation: {
         zoom: 'zoomIn 2s ease-in-out',
         slideIn: "slideIn 0.5s ease-out",
+        carousel: 'carousel 20s linear infinite',
       },
       keyframes: {
         zoomIn: {
@@ -18,6 +19,10 @@ export default {
         slideIn: {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0)" },
+        },
+        carousel: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' }, // Moves the entire width
         },
       }, 
       fontFamily: {

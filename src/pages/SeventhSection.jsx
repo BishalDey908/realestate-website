@@ -1,10 +1,14 @@
 import React from 'react'
 import FirstImage from "../assets/nature.jpg"
 import SectionImage from "../assets/nature2.jpg"
+import EighthSection from './EighthSection'
+import NinthSection from './NinthSection'
+
 
 const SeventhSection = () => {
   return (
-    <div className=' w-full h-96 text-black pt-16 px-4'>
+    <>
+    <div className=' w-full h-auto text-black pt-16 px-4 '>
       <div className='text-center'>
         <div>
             <h1 className='2xl:text-7xl xl:text-7xl md:text-6xl text-5xl font-bold'>YOUR KEY TO THE CITY</h1>
@@ -33,13 +37,11 @@ const SeventhSection = () => {
       className="w-full md:w-[50%] max-h-[100vh] object-cover" 
     />
   </div>
-</div>
-
-
-
-
-    
+</div>    
     </div>
+  <EighthSection/>
+  <NinthSection/>
+    </>
   )
 }
 

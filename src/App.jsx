@@ -6,6 +6,7 @@ import Landingpage from './pages/Landingpage'
 import SecondSection from './pages/SecondSection'
 import ThirdSection from './pages/ThirdSection'
 import FifthSection from './pages/FifthSection'
+import EighthSection from './pages/EighthSection'
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
       <ThirdSection/>
       <FourthSection/>
       <FifthSection/>
+      
       {/* the other components is on fifthSection */}
+      
     </>
   )
 }
