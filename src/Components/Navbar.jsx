@@ -72,7 +72,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-full">
           <h1 className="text-7xl font-extrabold font-sans">BRIX</h1>
 
-          <div className="w-[45%] py-4">
+          <div className="2xl:w-[45%] xl:w-[75%]  py-4">
             <ul className="flex items-center justify-between 2xl:text-2xl xl:text-lg md:text-xl text-sm font-semibold gap-4 ">
               <li className="hover:bg-teal-600 hover:py-2 hover:px-4 duration-500 2xl:block lg:block md:hidden hidden">
                 RENT@BRIX
@@ -83,7 +83,7 @@ const Navbar = () => {
               <li className="bg-teal-600 py-2 px-4 hover:bg-gray-800 duration-300 2xl:block lg:block md:hidden hidden">
                 BOOK NOW!
               </li>
-              <li className="hover:bg-gray-800 hover:py-2 hover:px-2 duration-500 rounded-full 2xl:block lg:block md:hidden hidden">
+              <li className="hover:bg-black hover:py-2 hover:px-2 duration-500 rounded-full 2xl:block lg:block md:hidden hidden">
                 EN
               </li>
               <li className="2xl:block lg:block md:hidden hidden">

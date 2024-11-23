@@ -42,15 +42,16 @@ const ThirdSection = () => {
     </div>
     <div className="flex justify-center mb-8">
       <div className="2xl:w-[80%] xl:w-[80%] md:w-[90%] w-[90%]">
-        <p className="text-black 2xl:text-3xl xl:text-3xl md:text-lg text-lg leading-relaxed">
+        <p className="text-black 2xl:text-3xl xl:text-3xl md:text-lg text-lg leading-relaxed px-8
+        2xl:text-center xl:text-center md:text-center text-left">
           Built into the BTIX culture is the ongoing planning and organizing of events,
          <br/> shows, talks, and workshops. Things are brewing! Movie night, chef presentation,<br/>
           pop-up store, BBQ event, stand-up comedy, fitness workshop, dog behavior<br/>
-          conference, art workshop, wine & cheese, music jam session, and so much more.
+          conference, art workshop, wine & cheese, music jam session, and so much more. <br /> <span className='font-bold'>This is what it means to be a Brixter.</span> 
         </p>
-        <p className="text-black 2xl:text-3xl xl:text-3xl md:text-lg text-lg  ">
-          This is what it means to be a Brixter.
-        </p>
+        {/* <p className="text-black 2xl:text-3xl xl:text-3xl md:text-lg text-lg  text-left">
+          
+        </p> */}
       </div>
     </div>
 
