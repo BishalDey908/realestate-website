@@ -2,12 +2,16 @@ import React from 'react'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css"; // Core styles (CSS)
 
+import Img1 from "../assets/andrei-r-popescu-FmOPaefLRA0-unsplash.jpg"
+import Img2 from "../assets/bedroom.jpg"
+import Img3 from "../assets/bedroom2.jpg"
+
 const SecondSlider = () => {
 
     const slides = [
-        "/src/assets/andrei-r-popescu-FmOPaefLRA0-unsplash.jpg",
-        "/src/assets/bedroom.jpg",
-        "/src/assets/dinning room.jpg",
+      Img1,
+        Img2,
+        Img3,
       ];
 
   return (
