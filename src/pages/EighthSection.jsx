@@ -9,7 +9,7 @@ const EighthSection = () => {
   return (
     <div className='bg-slate-900 w-full h-auto pb-8 px-4'>
       <div className='py-8 '>
-        <h1 className='text-center text-white text-6xl font-bold'>LIFE @BRIX</h1>
+        <h1 className='text-center text-white text-6xl font-bold font-sub_head'>LIFE @BRIX</h1>
       </div>
       <div className='flex flex-wrap justify-center gap-4'>
         <Card date="APRIL 29, 2024" img={Travelling}/>

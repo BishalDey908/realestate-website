@@ -27,6 +27,9 @@ export default {
       }, 
       fontFamily: {
         sans: ['Roboto', 'Arial', 'sans-serif'], // Google font
+        head: ["Oswald", "sans-serif"],
+        sub_head:["Roboto Slab", "serif"],
+        paragraph:["Montserrat", "sans-serif"]
       },
     }
   },

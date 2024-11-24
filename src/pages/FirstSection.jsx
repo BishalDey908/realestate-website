@@ -10,24 +10,24 @@ import Dinning from "../assets/dinning room.jpg"
 const FirstSection = () => {
   return (
 
-<div className="flex flex-col lg:flex-row gap-8 p-8 2xl:mx-16 md:mx-20 my-10">
+<div className="flex flex-col xl:flex-row gap-8 p-8 2xl:mx-16 md:mx-20 my-10">
   {/* Left Section (Text) */}
   <div className="flex-1 text-center lg:text-left ">
 
 
-    <div className="2xl:text-center xl:text-center md:text-center text-start text-4xl">
+    <div className="2xl:text-center xl:text-center md:text-center text-start text-4xl font-sub_head">
     <p className="font-semibold mb-2">THE FIRST MONTREAL BUILDING </p>
     <p className="font-semibold ">WITH AN ENRICHING LIFESTYLE</p>
     </div>
 
 
-    <div className="text-2xl my-6 2xl:text-center xl:text-center md:text-center text-start">
+    <div className="text-2xl my-6 2xl:text-center xl:text-center md:text-center text-start font-paragraph">
       <p>Beautiful apartments, vibrant shared apaces and </p>
       <p>concierge services. #1 in customer satisfaction.*</p>
     </div>
 
 
-    <div className="2xl:ml-36">
+    <div className="2xl:ml-36 font-paragraph">
       <div className="text-lg mt-4 mb-8 2xl:text-start xl:text-center md:text-center text-start ">
     <p className="">
       In the heart of Montreal, and to the rhythm of its beat. Make your 

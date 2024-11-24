@@ -17,7 +17,7 @@ const ReviewSlider = () => {
           alt="John Doe"
           className="w-12 h-12 rounded-full"
         />
-        <div className='flex-row'>
+        <div className='flex-row font-sub_head'>
           <h4 className="font-semibold text-white">
             - John Doe
             <span className="text-yellow-500 text-sm ml-2">
@@ -26,7 +26,7 @@ const ReviewSlider = () => {
           </h4>
         </div>
       </div>
-      <p className="mt-4 text-white italic">
+      <p className="mt-4 text-white italic font-paragraph">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, veritatis quia? Quae, vel! Nesciunt pariatur atque rem, incidunt nisi sunt eveniet magnam aliquam a doloremque iste. Saepe vero maxime similique distinctio reiciendis dicta iste, suscipit ipsa sit ut ipsum laboriosam exercitationem delectus. Nobis beatae nihil voluptatem in, obcaecati consequuntur minus iste perspiciatis, fugiat vel facilis.
       </p>
     </div>
@@ -39,7 +39,7 @@ const ReviewSlider = () => {
           className="w-12 h-12 rounded-full"
         />
         <div>
-          <h4 className="font-semibold text-white">
+          <h4 className="font-semibold text-white font-sub_head">
             - Jane Smith
             <span className="text-yellow-500 text-sm ml-2">
               ★★★★★
@@ -47,7 +47,7 @@ const ReviewSlider = () => {
           </h4>
         </div>
       </div>
-      <p className="mt-4 text-white italic">
+      <p className="mt-4 text-white italic font-paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, veritatis quia? Quae, vel! Nesciunt pariatur atque rem, incidunt nisi sunt eveniet magnam aliquam a doloremque iste. Saepe vero maxime similique distinctio reiciendis dicta iste, suscipit ipsa sit ut ipsum laboriosam exercitationem delectus. Nobis beatae nihil voluptatem in, obcaecati consequuntur minus iste perspiciatis, fugiat vel facilis.
       </p>
     </div>
@@ -60,7 +60,7 @@ const ReviewSlider = () => {
           className="w-12 h-12 rounded-full"
         />
         <div>
-          <h4 className="font-semibold text-white">
+          <h4 className="font-semibold text-white font-sub_head">
             - Alex Johnson
             <span className="text-yellow-500 text-sm ml-2">
               ★★★★★
@@ -68,7 +68,7 @@ const ReviewSlider = () => {
           </h4>
         </div>
       </div>
-      <p className="mt-4 text-white italic">
+      <p className="mt-4 text-white italic font-paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, veritatis quia? Quae, vel! Nesciunt pariatur atque rem, incidunt nisi sunt eveniet magnam aliquam a doloremque iste. Saepe vero maxime similique distinctio reiciendis dicta iste, suscipit ipsa sit ut ipsum laboriosam exercitationem delectus. Nobis beatae nihil voluptatem in, obcaecati consequuntur minus iste perspiciatis, fugiat vel facilis.
       </p>
     </div>
@@ -81,7 +81,7 @@ const ReviewSlider = () => {
           className="w-12 h-12 rounded-full"
         />
         <div>
-          <h4 className="font-semibold text-white">
+          <h4 className="font-semibold text-white font-sub_head">
             - Chris Lee
             <span className="text-yellow-500 text-sm ml-2">
               ★★★★★
@@ -89,7 +89,7 @@ const ReviewSlider = () => {
           </h4>
         </div>
       </div>
-      <p className="mt-4 text-white italic">
+      <p className="mt-4 text-white italic font-paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, veritatis quia? Quae, vel! Nesciunt pariatur atque rem, incidunt nisi sunt eveniet magnam aliquam a doloremque iste. Saepe vero maxime similique distinctio reiciendis dicta iste, suscipit ipsa sit ut ipsum laboriosam exercitationem delectus. Nobis beatae nihil voluptatem in, obcaecati consequuntur minus iste perspiciatis, fugiat vel facilis.
       </p>
     </div>
@@ -102,7 +102,7 @@ const ReviewSlider = () => {
           className="w-12 h-12 rounded-full"
         />
         <div>
-          <h4 className="font-semibold text-white">
+          <h4 className="font-semibold text-white font-sub_head">
             - Sarah Parker
             <span className="text-yellow-500 text-sm ml-2">
               ★★★★★
@@ -110,7 +110,7 @@ const ReviewSlider = () => {
           </h4>
         </div>
       </div>
-      <p className="mt-4 text-white italic">
+      <p className="mt-4 text-white italic font-paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, veritatis quia? Quae, vel! Nesciunt pariatur atque rem, incidunt nisi sunt eveniet magnam aliquam a doloremque iste. Saepe vero maxime similique distinctio reiciendis dicta iste, suscipit ipsa sit ut ipsum laboriosam exercitationem delectus. Nobis beatae nihil voluptatem in, obcaecati consequuntur minus iste perspiciatis, fugiat vel facilis.
       </p>
     </div>

@@ -58,7 +58,7 @@ const FirstSlider = () => {
   return (
     <div className="w-full mx-auto pb-14 text-center relative">
       {/* Navbar */}
-      <div className="flex justify-center mb-10 2xl:space-x-4 md:space-x-5 space-x-2 flex-wrap">
+      <div className="flex justify-center mb-10 2xl:space-x-4 md:space-x-5 space-x-2 flex-wrap font-head">
   {sliderData.map((item, index) => (
     <button
       key={item.id}

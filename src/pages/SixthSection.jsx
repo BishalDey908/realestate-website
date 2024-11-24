@@ -13,10 +13,10 @@ const SixthSection = () => {
     <div className='bg-slate-900 w-full py-16 text-white'>
       <div className='mx-16 text-center'>
         <div className='py-6'>
-          <h1 className='2xl:text-7xl xl:text-7xl md:text-7xl text-4xl text-white font-bold'>LIFE SIMPLIFYING SERVICES</h1>
+          <h1 className='2xl:text-7xl xl:text-7xl md:text-7xl text-4xl text-white font-bold font-sub_head'>LIFE SIMPLIFYING SERVICES</h1>
         </div>
         <div className='mt-6'>
-          <p className='2xl:text-3xl xl:text-3xl md:text-3xl text-xl text-white '>Apartment cleaning, dog walking,cat sitting,conference room reservation.....what <br /> do you need? BRIX residents have exclusive access to a la carte Concierge <br /> Services.
+          <p className='2xl:text-3xl xl:text-3xl md:text-3xl text-xl text-white font-paragraph'>Apartment cleaning, dog walking,cat sitting,conference room reservation.....what <br /> do you need? BRIX residents have exclusive access to a la carte Concierge <br /> Services.
           </p>
         </div>
       </div>

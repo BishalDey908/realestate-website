@@ -38,9 +38,9 @@ const ThirdSection = () => {
   {/* Header Section */}
   <div className="text-center">
     <div className="mb-4">
-      <h1 className="text-6xl text-black font-bold">BEING A BRIXTER</h1>
+      <h1 className="text-6xl text-black font-bold font-sub_head">BEING A BRIXTER</h1>
     </div>
-    <div className="flex justify-center mb-8">
+    <div className="flex justify-center mb-8 font-paragraph">
       <div className="2xl:w-[80%] xl:w-[80%] md:w-[90%] w-[90%]">
         <p className="text-black 2xl:text-3xl xl:text-3xl md:text-lg text-lg leading-relaxed px-8
         2xl:text-center xl:text-center md:text-center text-left">
@@ -57,7 +57,7 @@ const ThirdSection = () => {
 
     {/* Button Section */}
     <div>
-      <button className="text-2xl py-3 px-6 bg-teal-600 text-white  hover:bg-black transition-all duration-1000 ">
+      <button className="text-2xl py-3 px-6 bg-teal-600 text-white  hover:bg-black transition-all duration-1000 font-head">
         RENT@BRIX &gt;
       </button>
     </div>

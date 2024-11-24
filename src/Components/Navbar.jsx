@@ -38,11 +38,11 @@ const Navbar = () => {
             />
           </div>
           <div className="flex gap-6 justify-center">
-            <div className="text-6xl mt-14 text-center font-extrabold">BRIX</div>
+            <div className="text-6xl mt-14 text-center font-extrabold font-head">BRIX</div>
           </div>
 
           <div className="my-12">
-            <ul className="text-center flex-row text-xl font-semibold gap-10 cursor-pointer">
+            <ul className="text-center flex-row text-xl font-semibold gap-10 cursor-pointer font-sub_head">
               <li className="my-4 hover:text-teal-600 duration-300">APARTMENTS</li>
               <li className="my-4 hover:text-teal-600 duration-300">SHARED SPACES</li>
               <li className="my-4 hover:text-teal-600 duration-300">BUILDING</li>
@@ -70,9 +70,9 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between items-center h-full">
-          <h1 className="text-7xl font-extrabold font-sans">BRIX</h1>
+          <h1 className="text-7xl font-extrabold font-head">BRIX</h1>
 
-          <div className="2xl:w-[45%] xl:w-[75%]  py-4">
+          <div className="2xl:w-[45%] xl:w-[75%]  py-4 font-sub_head">
             <ul className="flex items-center justify-between 2xl:text-2xl xl:text-lg md:text-xl text-sm font-semibold gap-4 ">
               <li className="hover:bg-teal-600 hover:py-2 hover:px-4 duration-500 2xl:block lg:block md:hidden hidden">
                 RENT@BRIX
